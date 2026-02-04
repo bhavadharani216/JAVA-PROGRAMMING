@@ -18,7 +18,5 @@ public class input_output {
         System.out.println("Your Name is:"+name);
         System.out.println("Your Age is:"+age);
         System.out.println("Your Roll number is:"+rollno);
-
     }
-    
 }
