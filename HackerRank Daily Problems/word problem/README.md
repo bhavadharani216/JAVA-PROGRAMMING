@@ -26,7 +26,7 @@ The input consists of **4 lines**:
 
 ---
 
-## 📤 Output Format
+##  Output Format
 
 Print a single integer representing:
 
