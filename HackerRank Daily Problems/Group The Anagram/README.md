@@ -1,35 +1,38 @@
+
+**Group The Anagram**
+```
 Given an array of strings, group the anagrams together.
-
 Return groups in any order.
-
-Input Format
+```
+**Input Format**
 
 n strings (space separated)
 
-Constraints
+**Constraints**
+```
+Nil
+```
 
-.
-
-Output Format
+**Output Format**
 
 group1 group2 ...
 
-Sample Input 0
-
+**Sample Input 0**
+```
 6
 eat tea tan ate nat bat
-
-Sample Output 0
-
+```
+**Sample Output 0**
+```
 eat tea ate
 tan nat
 bat
-
-Sample Input 1
-
+```
+**Sample Input 1**
+```
 3
 abc bca cab
-
-Sample Output 1
+```
+**Sample Output 1**
 
 abc bca cab
