@@ -1,3 +1,5 @@
+// using while loop
+
 import java.util.*;
 
 class Main {
