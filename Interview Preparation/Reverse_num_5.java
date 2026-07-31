@@ -1,6 +1,9 @@
 // reverse a number in array , 
 // get arr size
 // get input to a array
+// using two pointer 
+//using temp variable
+
 
 import java.util.Scanner;
 
