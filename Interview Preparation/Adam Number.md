@@ -38,41 +38,43 @@ Therefore, `12` is an **Adam Number**. ✨
 import java.util.Scanner;
 
 public class Main {
-
-    public static int reverse(int n) {
-
-        int rev = 0;
-
-        while (n != 0) {
-
-            int digit = n % 10;
-            rev = rev * 10 + digit;
-            n = n / 10;
-
-        }
-
-        return rev;
-    }
-
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
 
-        int reverseNumber = reverse(n);
+        // Reverse the original number
+        int temp = n;
+        int reverseNumber = 0;
 
+        while (temp != 0) {
+            int digit = temp % 10;
+            reverseNumber = reverseNumber * 10 + digit;
+            temp = temp / 10;
+        }
+
+        // Square of reversed number
         int squareReverse = reverseNumber * reverseNumber;
 
+        // Square of original number
         int squareOriginal = n * n;
 
-        int reverseSquare = reverse(squareOriginal);
+        // Reverse the square of original number
+        temp = squareOriginal;
+        int reverseSquare = 0;
 
+        while (temp != 0) {
+            int digit = temp % 10;
+            reverseSquare = reverseSquare * 10 + digit;
+            temp = temp / 10;
+        }
+
+        // Check Adam Number
         if (squareReverse == reverseSquare)
             System.out.println("Adam Number");
         else
             System.out.println("Not Adam Number");
-
     }
 }
 ```
