@@ -1,3 +1,19 @@
+# 📝 Anagram
+
+---
+
+## 🌟 Method 1: Using `Arrays.sort()`
+
+### 💡 Logic
+- Read two strings.
+- First, check whether both strings have the **same length**.
+- Convert both strings into character arrays using `toCharArray()`.
+- Sort both character arrays using `Arrays.sort()`.
+- Compare both arrays using `Arrays.equals()`.
+- If both arrays are equal → **Anagram**.
+- Otherwise → **Not Anagram**.
+
+```java
 import java.util.*;
 
 class Main {
