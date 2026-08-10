@@ -1,4 +1,4 @@
-# 📝 7. Move All Zeros to the End
+# 📝 Move All Zeros to the End
 
 ---
 
